@@ -132,17 +132,17 @@ def make_df():
 
 
 columns = [
-'Наименование государственного заказчика', # customer
-'Наименование объекта закупки', # contractSubject
-'Наименование товара', # products
-'Единицы измерения', # nationalCode
-'Поставщик', # supplier
-'Номер контрака', # number
-'Дата заключения контракта', # signDate
-'Количество', # quantity
-'Цена за ед., руб', # sumRUR
-'Сумма', # priceInfo
-'Ссылка на контракт в ЕИС'] #href
+'Наименование государственного заказчика', # customer ##### Customer organization
+'Наименование объекта закупки', # contractSubject     ##### Object of contract
+'Наименование товара', # products                     ##### Product name 
+'Единицы измерения', # nationalCode                   ##### unit name
+'Поставщик', # supplier                               ##### Supplier organization
+'Номер контрака', # number                            ##### Number of contract
+'Дата заключения контракта', # signDate               ##### Data of sign contact
+'Количество', # quantity                              ##### Quantity of product
+'Цена за ед., руб', # sumRUR                          ##### Unit price
+'Сумма', # priceInfo                                  ##### Contract amount
+'Ссылка на контракт в ЕИС'] #href                     ##### link to contract (https://zakupki.gov.ru/)
 
 
 
